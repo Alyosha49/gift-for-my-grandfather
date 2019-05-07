@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "icon" href = "icon.ico"> 
+        <title>С днем рождения, деда!</title>
+        <style>
+            @font-face {
+                font-family: 'dsarmy';
+                src: url("/fonts/dsarmy.ttf");
+            } 
+            .container {
+                border: 0.3vw solid black;
+                width: 50vw;
+                height: 97vh;
+                background: url("texture.png")
+            }
+            .heading {
+                box-shadow: inset 0 0 0 0.3vw #000000;
+                background: url("texture2.png");
+                width: inherit;
+                color: #00aa00;
+                font-size: 5vw;
+                font-family: "Comic sans ms";
+            }
+            .chapter1 {
+                width: inherit;
+                border: 0.3vw solid black;
+                color: yellow;
+                font-family: sans-serif;
+                display: flex;
+                flex-direction: row;
+	            justify-content: center;
+            }
+            .wishes {
+                width: inherit;
+                border: 0.38vw solid black;
+                color: yellow;
+                font-family: sans-serif;
+            }
+            .wishes1 {
+                font-size:1.9vw;
+            }
+            .wishes2 {
+                font-size: 2.3vw;
+            }
+            .button {
+                position: absolute;
+                box-shadow: inset 0 -5vh 0 0 #00aa00;
+                border-radius: 2vw;
+                background-color: #00ff00;
+                width: 15vw;
+                height: 13vh;
+                text-align: center;
+                font-size: 2.5vw;
+                font-family: 'comic sans ms';
+                top: 84vh;
+                left: 34vw;
+            }
+            a {
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "heading">С днём рождения!</div>
+            <div class = "mainzone">
+                <div class = "wishes">
+                    <h1 class = "chapter1">Я тебе желаю:</h1>
+                    <p class = "wishes1">Успехов в работе, здоровья, много тортов</p>
+                    <p class = "wishes2">И хорошо провести свой день рождения.</p><br>
+                </div>
+                <div class = "button">
+                    <a href = "luger.html">Следующая →</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
